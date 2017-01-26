@@ -1,0 +1,38 @@
+/* BAD PRACTICE CSS */
+
+
+.button {
+	display: inline-block;
+	padding: 5px;
+	border-radius: 12px;
+}
+
+.field {
+	display: inline-block;
+	padding: 5px;
+	border-radius: 12px;
+}
+
+.column {
+	float: left;
+	padding: 5px;
+	border-radius: 12px;
+}
+
+/* GOOD PRACTICE CSS */
+
+.button,
+.field,
+.column {
+	padding: 5px;
+	border-radius: 12px;
+}
+
+.button,
+.field {
+	display: inline-block;
+}
+
+.column {
+	float: left;
+}

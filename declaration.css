@@ -1,0 +1,17 @@
+/* Declaration Order */
+
+.box {
+	position: relative;
+	z-index: 1;
+	float: left;
+
+	padding: 20px;
+	min-height: 100px;
+	width: 25%;
+
+	border: 1px solid;
+	border-radius: 12px;
+
+	background: #ddd;
+	color: #000;
+}

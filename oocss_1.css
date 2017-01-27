@@ -1,0 +1,34 @@
+/* BEFORE Separating Containers and Content */
+/*
+
+.header-inner,
+.main-content,
+.footer-inner {
+	position: relative;
+	margin: 0 auto;
+	padding: 15px;
+	width: 90%;
+}
+
+.header-inner {
+	height: 150px;
+}
+*/
+
+
+/* Separate Containers and Content based on OOCSS */
+
+
+.global-width {
+	position: relative;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 90%;
+}
+
+.header-inner {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 150px;
+}
